@@ -1,0 +1,22 @@
+{
+  "name": "axe_house_server",
+  "version": "0.0.1",
+  "author": "nick_lab",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "md5": "^2.2.1",
+    "mysql": "^2.17.1",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "description": "Server for Axe House Mobile Apps and Stations"
+}
